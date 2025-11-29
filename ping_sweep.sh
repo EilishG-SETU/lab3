@@ -1,0 +1,19 @@
+ping_sweep() {
+    if [ "$#" -ne 1 ]; then
+        echo "Usage: ping_sweep <subnet_prefix>"
+        echo "Example: ping_sweep 10.0.0"
+        return 1
+    fi
+
+    subnet="$1"
+
+    echo "Starting ping sweep for $subnet.1 - $subnet.10..."
+
+    for i in {1..10}; do
+        ip="$subnet.$i"
+        ping -c1 -w1 "$ip" &> /dev/null && echo "[+] $ip alive" &
+    done
+    wait
+    
+    echo "Scan complete."
+}
