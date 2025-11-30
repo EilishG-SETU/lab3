@@ -1,0 +1,5 @@
+192.168.1.1 is alive
+10.0.0.1 is alive
+256.256.256.256 is alive
+8.8.8.8 is alive
+4.4.4.4 is alive

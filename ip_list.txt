@@ -1,0 +1,5 @@
+This line has 192.168.1.1 and some garbage
+10.0.0.1 (Internal IP - probably dead)
+A long string that looks like 256.256.256.256 but is invalid
+8.8.8.8
+And another one, 4.4.4.4

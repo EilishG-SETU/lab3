@@ -1,0 +1,11 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+sshuser:x:1000:1000:SSH User:/home/sshuser:/bin/bash
+service:x:1001:1001:service:/home/service:/bin/bash
+student:x:1002:1002:student:/home/student:/bin/bash
+systemadmin:x:1003:1003:systemadmin:/home/systemadmin:/bin/bash
+staff:x:1004:1004:staff:/home/staff:/bin/bash
+sam:x:1005:1005:sam:/home/sam:/bin/bash
+server:x:1006:1006:server:/home/server:/bin/bash
